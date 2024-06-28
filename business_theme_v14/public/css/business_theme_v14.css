@@ -43,8 +43,8 @@
     font-weight: 500;
 }
 [data-theme="dark"] {
-    --bg-color: var(--gray-900);
-    --disabled-control-bg: var(--gray-900);
+    --bg-color: var(--violet-900);
+    --disabled-control-bg: var(--violet-900);
     --border-color: #1c2126;
     --margin-lg : 15px;
     --text-bold: 600;
@@ -135,12 +135,12 @@ input:focus{
 
 /* Colours */
 :root {
-    --background-color: #36414c;
+    --background-color: #735DA5;
     --primary-color: #ffa00a;
-    --secondary-color: #7574ff;
+    --secondary-color: #D3C5E5;
     --white-color: #ffffff;
     --black-color: #000000;
-    --gray-color: #888;
+    --violet-color:#ee82ee;
 
     --page-head-height: 50px;
     --navbar-height: 50px;
@@ -242,7 +242,7 @@ header .form-control:focus{
     stroke: var(--primary-color);
 }
 .list-sidebar-button{
-    background-color: #c8c4c4 !important;
+    background-color: #d9c2c8 !important;
     box-shadow: none !important;
 }
 .list-sidebar-button:active,
@@ -258,7 +258,7 @@ input{
 }
 .form-control{
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-    background-color: #f2f2f2 !important;
+    background-color: #f3f1fa !important;
 }
 .form-control:focus{
     outline: 0;
@@ -281,7 +281,7 @@ symbol#icon-small-down{
     border: 1px solid #bbbbbb;
 }
 .form-grid .grid-heading-row{
-    background-color: #f4f4f4;
+    background-color: #f6f3f3;
 }
 .grid-heading-row{
     border-bottom: 1px solid var(--primary-color);
