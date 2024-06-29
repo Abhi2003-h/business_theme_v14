@@ -23,7 +23,7 @@
     background-color: var(--bg-color)
 }
 .modal-backdrop{
-    background-color: #a8c66c !important;
+    background-color: #c9f7ff !important;
 }
 .widget .widget-head .widget-title {
     font-size: var(--text-base);
@@ -43,8 +43,8 @@
     font-weight: 500;
 }
 [data-theme="dark"] {
-    --bg-color: var(--violet-900);
-    --disabled-control-bg: var(--violet-900);
+    --bg-color: var(--violet-500);
+    --disabled-control-bg: var(--violet-500);
     --border-color: #1c2126;
     --margin-lg : 15px;
     --text-bold: 600;
@@ -135,12 +135,12 @@ input:focus{
 
 /* Colours */
 :root {
-    --background-color: #735DA5;
-    --primary-color: #ffa00a;
-    --secondary-color: #D3C5E5;
+    --background-color: #88d5ff;
+    --primary-color: #0a8dff;
+    --secondary-color: #f7b4fd;
     --white-color: #ffffff;
     --black-color: #000000;
-    --violet-color:#ee82ee;
+    --violet-color:#e6f697;
 
     --page-head-height: 50px;
     --navbar-height: 50px;
@@ -157,7 +157,7 @@ input:focus{
     border-radius: 0 !important;
 }
 .btn-primary:hover{
-    background-color: rgba(255, 120, 10, 0.93) !important;
+    background-color: rgba(194, 10, 255, 0.93) !important;
 }
 /* .btn-secondary{
     background-color: #606060 !important;
@@ -242,7 +242,7 @@ header .form-control:focus{
     stroke: var(--primary-color);
 }
 .list-sidebar-button{
-    background-color: #d9c2c8 !important;
+    background-color: #b55aff !important;
     box-shadow: none !important;
 }
 .list-sidebar-button:active,
@@ -258,7 +258,7 @@ input{
 }
 .form-control{
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-    background-color: #f3f1fa !important;
+    background-color: #99e2ff !important;
 }
 .form-control:focus{
     outline: 0;
@@ -278,10 +278,10 @@ symbol#icon-small-down{
 /* Table */
 .form-grid{
     border-radius: 0;
-    border: 1px solid #bbbbbb;
+    border: 1px solid #ff7c7c;
 }
 .form-grid .grid-heading-row{
-    background-color: #f6f3f3;
+    background-color: #ffe570;
 }
 .grid-heading-row{
     border-bottom: 1px solid var(--primary-color);
@@ -310,7 +310,7 @@ symbol#icon-small-down{
 
 /* Report Table */
 .datatable .dt-header .dt-cell--header .dt-cell__content{
-    background-color: #f4f4f4;
+    background-color: #6bffa1;
 }
 
 
